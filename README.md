@@ -6,4 +6,4 @@
 ```
 
 #### 示例效果
-![example](https://github.com/HiutingYin/happyBirthday/blob/master/image/example.gif =334x515)
+<img src="https://github.com/HiutingYin/happyBirthday/blob/master/image/example.gif" width="334" height="515" align="middle" />
