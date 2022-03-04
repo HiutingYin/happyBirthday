@@ -1,16 +1,4 @@
 
-/*
-
-  Shape Shifter
-  =============
-  A canvas experiment by Kenneth Cachia
-  http://www.kennethcachia.com
-
-  Updated code
-  ------------
-  https://github.com/kennethcachia/Shape-Shifter 
-
-*/
 var S = {
   init: function () {
     var action = window.location.href,
@@ -22,7 +10,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('5|4|3|2|1|Happy|Birthday|to 郑 BB|希望|你永远开心|一切都好|希望|所有|俗套的祝福|都在|你身上灵验|生日快乐|可爱女人||');
+      S.UI.simulate('5|4|3|2|1|Happy|Birthday|to BB|希望|你永远开心|一切都好|希望|所有|俗套的祝福|都在|你身上灵验|生日快乐|ღ( ´･ᴗ･` )');
     }
 
     S.Drawing.loop(function () {
